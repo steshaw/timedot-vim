@@ -5,8 +5,6 @@ if exists('b:current_syntax')
 endif
 let b:current_syntax = "timedot"
 
-echom 'Our syntax highlighting code will go here'
-
 syntax match timedotComment /^\s*[#;*].*$/
 syntax match timedotDate /\v^\d{4}[./]\d\d?[./]\d\d?$/
 syntax match timedotNum /\v\ \ \ *\d(\d|[.])+/
