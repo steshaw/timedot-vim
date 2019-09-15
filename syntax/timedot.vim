@@ -5,6 +5,8 @@ if exists('b:current_syntax')
 endif
 let b:current_syntax = "timedot"
 
+"echom 'timedot/syntax.vim'
+
 syntax match timedotComment /^\s*[#;*].*$/
 syntax match timedotDate /\v^\d{4}[./]\d\d?[./]\d\d?$/
 syntax match timedotNum /\v\ \ \ *\d(\d|[.])+/
